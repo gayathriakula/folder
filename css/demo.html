@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body{
+            margin: 0;
+        }
+        .container{
+            display: grid;
+            grid-template-rows: repeat(2,auto);
+            gap: 20px;
+            justify-content: centre;
+            align-items: start;
+        }
+        .flex-container{
+            displaly:flex;
+            gap: 20px;
+            border:1px solid white;
+            flex-direction: row;
+        }
+        .flex-item{
+            padding: 20px;
+            border: 1px solid white;
+            flex-direction: row;
+        }
+        .grid-container{
+            display: grid;
+            grid-template-columns: repeat(3,1fr);
+            gap: 20px;
+            
+        }
+        .grid-item{
+            padding: 20px;
+            border:1px solid white;
+        }
+    </style>
+        <title>Flex And Grid</title>
+    <link rel="stylesheet" href="demo.css">
+</head>
+<body>
+    <div class="container">
+        <div class="flex-item">flex  1</div>
+        <div class="flex-item">flex  2</div>
+        <div class="flex-item">flex  3</div>
+        <div class="flex-item">flex  4</div>
+        <div class="flex-item">flex 5</div>
+     </div>
+        <div class="grid-container">
+        <div class="grid-item">grid 1</div>
+        <div class="grid-item">grid 2</div>
+        <div class="grid-item">grid 3</div>
+        <div class="grid-item">grid 4</div>
+        <div class="grid-item">grid 5</div>
+        <div class="grid-item">grid 6</div>
+        <div class="grid-item">grid 7</div>
+
+    </div>
+    
+    
+</body>
+</html>
